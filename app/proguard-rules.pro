@@ -1,0 +1,6 @@
+-keep class org.signal.libsignal.** { *; }
+-keep class net.zetetic.database.** { *; }
+-keep class io.libp2p.** { *; }
+-dontwarn io.netty.**
+-dontwarn org.bouncycastle.**
+-dontwarn com.google.protobuf.**
